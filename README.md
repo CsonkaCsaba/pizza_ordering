@@ -13,3 +13,5 @@ Az adatok elküldéséhez ne használj form submit-et
 Szerver oldalon írd az adatokat egy MySQL táblába. Tábla neve: pizza, mezők: azon,nev, email, telefon, pizza, meret, extrasajt, ido. Az idő mezőbe a megrendelés időpontja kerüljön, az id-be egy egyedi azonosító.
 Ugyanarról az email címről 1 percen belül nem érkezhet több rendelés.
 Sikeres megrendelés esetén a nyugtázó üzenet a form helyére kerüljön és tartalmazza a megrendelés azonosítóját.
+jQuery ismerete/használata előnyt jelent.
+
