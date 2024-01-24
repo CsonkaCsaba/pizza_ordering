@@ -1,0 +1,55 @@
+
+.maincontainer{
+    margin: auto;
+    width: 60%;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.title {
+    color:green;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.form-container{
+    border: 3px solid red;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.form-item{
+    height: auto;
+    padding: 10px;
+    text-align: right;
+    display: block;
+}
+
+.form-item input, select{
+   border: 2px solid blue; 
+   width: 50%;
+   
+}
+
+.right-inline {
+    width: 54%;
+    height: auto;
+    padding: 10px;
+    display: inline-flex;
+    ::after {
+        content: '';
+        padding: 0.3em;
+      }
+}
+
+.right-inline-checkbox{
+    display: inline-flex;
+    width: 13%;
+    height: auto;
+}
+
+.button{
+    padding: 0px 20px 0px 20px;
+    margin: 10px;
+}
